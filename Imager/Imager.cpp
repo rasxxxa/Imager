@@ -5,6 +5,7 @@
 #include "Imager.h"
 #include "RawImageHandler.h"
 
+import Filters;
 
 #define MAX_LOADSTRING 100
 
@@ -37,6 +38,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     {
         return FALSE;
     }
+
+    RawImageHandler handler;
+    auto Image = handler.LoadImageFile("../Test.png");
+    GrayFilter(Image);
+    handler.WriteImage(Image);
 
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_IMAGER));
 

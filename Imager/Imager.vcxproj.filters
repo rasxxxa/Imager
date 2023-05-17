@@ -104,6 +104,9 @@
     <ClCompile Include="..\STB\stb_vorbis.c">
       <Filter>Header Files\STB</Filter>
     </ClCompile>
+    <ClCompile Include="Filters.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Imager.rc">
