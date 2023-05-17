@@ -127,13 +127,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\STB\stb_connected_components.h" />
+    <ClInclude Include="..\STB\stb_c_lexer.h" />
+    <ClInclude Include="..\STB\stb_divide.h" />
+    <ClInclude Include="..\STB\stb_ds.h" />
+    <ClInclude Include="..\STB\stb_dxt.h" />
+    <ClInclude Include="..\STB\stb_easy_font.h" />
+    <ClInclude Include="..\STB\stb_herringbone_wang_tile.h" />
+    <ClInclude Include="..\STB\stb_hexwave.h" />
+    <ClInclude Include="..\STB\stb_image.h" />
+    <ClInclude Include="..\STB\stb_image_resize.h" />
+    <ClInclude Include="..\STB\stb_image_write.h" />
+    <ClInclude Include="..\STB\stb_include.h" />
+    <ClInclude Include="..\STB\stb_leakcheck.h" />
+    <ClInclude Include="..\STB\stb_perlin.h" />
+    <ClInclude Include="..\STB\stb_rect_pack.h" />
+    <ClInclude Include="..\STB\stb_sprintf.h" />
+    <ClInclude Include="..\STB\stb_textedit.h" />
+    <ClInclude Include="..\STB\stb_tilemap_editor.h" />
+    <ClInclude Include="..\STB\stb_truetype.h" />
+    <ClInclude Include="..\STB\stb_voxel_render.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Imager.h" />
+    <ClInclude Include="RawImageHandler.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\STB\stb_vorbis.c" />
     <ClCompile Include="Imager.cpp" />
+    <ClCompile Include="RawImageHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Imager.rc" />
